@@ -6,4 +6,4 @@ Pretty but pointless patterns in polar plots of prime. Inspired by [3Blue1Brown'
 
 And here are the first 100,000 primes
 
-![](1000.png)
+![](100k.png)

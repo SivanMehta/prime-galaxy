@@ -8,9 +8,12 @@ plot.spiral <- function(dataset, size = 1) {
   dataset %>%
     ggplot() +
     aes(x = x %% pi, y = x) +
-    geom_point(size = size) +
+    geom_point(size = size, fill = 'white', color = 'white') +
     coord_polar() +
-    theme_void()
+    theme_void() +
+    theme(
+      panel.background = element_rect(fill = "black", colour = "black")
+    )
 }
 
 plot.spiral(dat.sub)
